@@ -15,42 +15,34 @@ p{
   margin-bottom: 0;
 }
 
-.preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-}
+
 
 .video-thumb {
-  width: 300px;
-  height: 200px;
+  width: 100%;
 }
 
 
 .thumbnail-row{
-  height: 200px;
   margin-bottom: 10px;
 }
 
-.info-row{
+.video-info-grid{
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.video-thumb {}
-
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;  
-}
 
 .channel-thumb {
   width: 40px;
   border-radius: 20px;
 }
+.channel-picture {
+  /* background-color: gray; */
+}
 
 .video-info {
-  display: inline-block;
-  width: 200px;
+  /* background-color: gray; */
 }
 .video-title {
   font-size: 14px;
@@ -66,4 +58,11 @@ p{
 
 .video-author{
   margin-bottom: 4px;
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px;
 }
