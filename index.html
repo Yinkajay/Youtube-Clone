@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/videos.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 
 <body>
@@ -22,16 +23,50 @@
       <input class="search-bar" type="text" name="" placeholder="Search">
       <button class="search-button">
         <img class="search-icon" src="icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voice-search-button">
         <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
       <img class="upload-icon" src="icons/upload.svg" alt="">
       <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
-      <img class="notifications-icon" src="icons/notifications.svg" alt="">
+      <div class="notifications-container">
+        <img class="notifications-icon" src="icons/notifications.svg" alt="">
+        <div class="notifications-counter">
+          3
+        </div>
+      </div>
       <img class="current-user-picture" src="channel thumbs/yinka-channel.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg" alt="">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg" alt="">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg" alt="">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg" alt="">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg" alt="">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg" alt="">
+      <div>Library</div>
     </div>
   </div>
 
@@ -41,7 +76,7 @@
         <a href="https://www.google.com/" target="_blank">
           <img class="video-thumb" src="thumbnails/thumbnail-1.webp" alt="">
         </a>
-
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -57,6 +92,7 @@
     <div class="preview">
       <div class="thumbnail-row">
         <img class="video-thumb" src="thumbnails/thumbnail-2.webp" alt="">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -69,12 +105,12 @@
         </div>
       </div>
     </div>
-        <div class="preview">
+    <div class="preview">
       <div class="thumbnail-row">
         <a href="https://www.google.com/" target="_blank">
           <img class="video-thumb" src="thumbnails/thumbnail-1.webp" alt="">
         </a>
-
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">

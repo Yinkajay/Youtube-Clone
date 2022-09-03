@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-body {
-  box-sizing: border-box;
-  padding-top: 80px;
-}
+
 
 .video-thumb {
   width: 100%;
@@ -12,6 +9,7 @@ body {
 
 .thumbnail-row{
   margin-bottom: 10px;
+  position: relative;
 }
 
 .video-info-grid{
@@ -22,7 +20,7 @@ body {
 
 
 .channel-thumb {
-  width: 40px;
+  width: 35px;
   border-radius: 20px;
 }
 .channel-picture {
@@ -53,4 +51,17 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 40px;
+}
+
+.video-time{
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto, Arial ;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 4px;
 }
